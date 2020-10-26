@@ -18,6 +18,7 @@ sap.ui.define([
 					press: function () {
 						//TO DO: get the object of our video player which live camera is running
 						that.imageVal = document.getElementById("player");
+						//
 						//take the image object out of it and set to main page using global variable
 						that.fixedDialog.close();
 					}
